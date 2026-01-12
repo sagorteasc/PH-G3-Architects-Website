@@ -88,6 +88,28 @@ nav > ul > li > a{
     max-width: 1320px;
     margin: 0 auto;
 }
+.feature-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+    gap: 73px;
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-text-container{
+    max-width: 530px;
+}
+.feature-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+.orange{
+    color: #FF900E;
+}
 
 
 /* responsive for mobile devices */
@@ -100,5 +122,18 @@ nav > ul > li > a{
     }
     .banner{
         margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    /* feature styles */
+    .feature-container{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-text-container{
+        width: 85%;
     }
 }
