@@ -183,6 +183,7 @@ nav > ul > li > a{
 .some-fact-text-container{
     max-width: 540px;
     margin-bottom: 100px;
+    margin-left: 55px;
 }
 .some-fact-title{
     font-weight: bold;
@@ -196,6 +197,7 @@ nav > ul > li > a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 180px;
+    justify-items: center;
 }
 .some-fact-card{
     text-align: center;
@@ -237,7 +239,7 @@ nav > ul > li > a{
 .sponsor-images{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 155px;
+    gap: 90px;
     justify-content: center;
     justify-items: center;
     margin-bottom: 130px;
